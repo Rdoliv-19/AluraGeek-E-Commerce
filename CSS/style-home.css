@@ -1,0 +1,56 @@
+.cabecalho{
+    margin: 20px auto;
+    width: 1300px;
+}
+
+.cabecalho-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-Logo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px 0px;
+}
+
+.logo-alura{
+    margin-left: 5px;
+    color:#2A7AE4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo-geek{
+    font-weight: bold;
+    font-size: 20px;
+    color: #464646;
+}
+
+.cabecalho-pesquisa{
+    margin-left: 20px;
+    padding:8px 16px;
+    width: 393px;
+    
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+
+.cabecalho-pesquisa::placeholder{
+    background: url("../IMG/lupa.png") no-repeat;
+    background-position: 99% 50%;
+}
+
+.login{
+    width: 182px;
+    height: 51px;
+
+    border: 1px solid #2A7AE4 ;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #2A7AE4;
+
+}

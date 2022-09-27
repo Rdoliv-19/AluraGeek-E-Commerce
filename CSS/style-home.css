@@ -1,6 +1,8 @@
 .cabecalho{
     margin: 20px auto;
-    width: 1300px;
+    width: 1200px;
+    height: 115px;
+
 }
 
 .cabecalho-container{
@@ -17,18 +19,6 @@
     padding: 32px 0px;
 }
 
-.logo-alura{
-    margin-left: 5px;
-    color:#2A7AE4;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.logo-geek{
-    font-weight: bold;
-    font-size: 20px;
-    color: #464646;
-}
 
 .cabecalho-pesquisa{
     margin-left: 20px;
@@ -52,5 +42,51 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: #2A7AE4;
+}
 
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+    background-image: url(../IMG/banner-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+
+    
+    width: 1440px;
+    height: 352px;    
+}
+
+.banner-container{
+    width: 1136px;
+    height: 170px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.banner-titulo{
+    color: white;
+    font-size: 52px;
+}
+
+.banner-subtitulo{
+    color:white;
+    font-size: 22px;
+}
+
+.banner-botao{
+    width: 130px;
+    height: 51px;
+
+    padding: 16px;
+    background-color: #2A7AE4;
+    color: white;
 }

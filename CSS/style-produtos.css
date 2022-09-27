@@ -1,0 +1,65 @@
+.produtos{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.produtos-topo{
+    display: flex;
+    flex-direction: column;
+   
+    width: 1136px;
+    height: 306px;
+
+    margin: 30px auto;    
+}
+
+.produtos-topo-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produtos-titulo{
+    font-weight: 700;
+    color: #464646;
+}
+
+.produtos-subtitulo{
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A7AE4;
+    
+}
+
+.container-produtos{
+    width: 176px;
+    height: 252px;
+}
+
+.container-produtos-imagem{
+    width: 176px;
+    height: 174px;
+}
+
+.container-produtos-texto{
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
+}
+
+.container-produtos-valor{
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+
+.container-produtos-link{
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A7AE4;
+}
+
+.container-produtos-lista{
+    display: flex;
+    justify-content: space-between;
+}

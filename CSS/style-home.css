@@ -44,49 +44,6 @@
     color: #2A7AE4;
 }
 
-.banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 32px;
-    gap: 16px;
-    background-image: url(../IMG/banner-image.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Raleway', sans-serif;
-
-    
-    width: 1440px;
-    height: 352px;    
-}
-
-.banner-container{
-    width: 1136px;
-    height: 170px;
-    margin: 0 auto;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-
-.banner-titulo{
-    color: white;
-    font-size: 52px;
-}
-
-.banner-subtitulo{
-    color:white;
-    font-size: 22px;
-}
-
-.banner-botao{
-    width: 130px;
-    height: 51px;
-
-    padding: 16px;
-    background-color: #2A7AE4;
-    color: white;
+.produtos-Consoles, .produtos-starWars{
+    margin: 50px 0 80px 0;
 }

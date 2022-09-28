@@ -63,3 +63,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.produtos-Consoles, .produtos-starWars{
+    margin: 50px 0 80px 0;
+}

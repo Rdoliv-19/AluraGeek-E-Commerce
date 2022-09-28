@@ -1,0 +1,88 @@
+footer{
+    width: 1440px;
+    height: 470px;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 100px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+
+    width:1440px;
+    height: 368px;
+
+    margin: 0 auto;
+ 
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.rodape-container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    width: 1136px;
+    height: 240px;
+    margin: 0 auto;
+}
+
+.rodape-links{
+    width: 176px;
+    height: 234px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-alura{
+    width: 176px;
+    height: 50px;
+}
+
+.rodape-fale-conosco{
+    width: 560px;
+    height: 240px;
+}
+
+.rodape-links-texto{
+    line-height: 18.79px;
+    color: #464646;
+}
+
+.rodape-fale-conosco-input{
+    width: 560px;
+    height: 56px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+
+}
+
+.rodape-fale-conosco-text{
+    width: 560px;
+    height: 82px;
+    margin-bottom: 15px;
+
+    border-radius: 4px;
+}
+
+.rodape-fale-conosco-botao{
+    width: 165px;
+    height: 51px;
+
+    padding: 16px;
+
+    background-color: #2A7AE4;
+    color: white;
+}
+
+.rodape-fale-conosco-titulo{
+    color: #464646;
+    font-weight: 700;
+}

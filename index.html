@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./CSS/style-produtos.css">
     <link rel="stylesheet" href="./CSS/style-banner.css">
     <link rel="stylesheet" href="./CSS/style-rodape.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -23,19 +25,20 @@
                 <input type="text" placeholder="Oque deseja encontrar?" class="cabecalho-pesquisa">
 
             </div>
-            <div class="login">
-                <p>Login</p>
-            </div>
+            <input type="button" value="Login" class="login">
         </div>
     </header>
     <main>
         <div class="banner">
-            <div class="banner-container">
-                <h2 class="banner-titulo">Dezembro promocional</h2>
-                <h2 class="banner-subtitulo">Produtos selecionados com 33% de desconto</h2>
-                <input type="button" value="Ver Consoles" class="banner-botao">
+            <div class="banner-imagem">
+                <div class="banner-container">
+                    <h2 class="banner-titulo">Dezembro promocional</h2>
+                    <h2 class="banner-subtitulo">Produtos selecionados com 33% de desconto</h2>
+                    <input type="button" value="Ver Consoles" class="banner-botao">
+                </div>
             </div>
         </div>
+
         <div class="produtos">
             <div class="produtos-starWars">
                 <div class="produtos-topo">
@@ -177,31 +180,36 @@
                     </div>
                 </div>
             </div>
-
-            <footer>
-                <div class="rodape">
-                    <div class="rodape-container">
-                        <img src="./IMG/Logo Alura.png" class="logo-alura">
-
-                        <div class="rodape-links">
-                            <p><a href="#" class="rodape-links-texto">Quem somos nós</a></p>
-                            <p><a href="#" class="rodape-links-texto">Política de privacidade</a></p>
-                            <p><a href="#" class="rodape-links-texto">Programa de fidelidade</a></p>
-                            <p><a href="#" class="rodape-links-texto">Nossas lojas</a></p>
-                            <p><a href="#" class="rodape-links-texto">Quero ser franqueado</a></p>
-                            <p><a href="#" class="rodape-links-texto">Anuncie aqui</a></p>
-                        </div>
-
-                        <div class="rodape-fale-conosco">
-                            <p class="rodape-fale-conosco-titulo">Fale conosco</p>
-                            <input type="text" placeholder="nome" class="rodape-fale-conosco-input">
-                            <textarea class="rodape-fale-conosco-text" placeholder="Escreva sua mensagem"></textarea>
-                            <input type="submit" value="Enviar mensagem" class="rodape-fale-conosco-botao">
-                        </div>  
-                    </div>
-                </div>
-            </footer>
         </div>
+
+        <footer>
+            <div class="rodape">
+                <div class="rodape-container">
+                    <img src="./IMG/Logo Alura.png" class="logo-alura">
+
+                    <div class="rodape-links">
+                        <p><a href="#" class="rodape-links-texto">Quem somos nós</a></p>
+                        <p><a href="#" class="rodape-links-texto">Política de privacidade</a></p>
+                        <p><a href="#" class="rodape-links-texto">Programa de fidelidade</a></p>
+                        <p><a href="#" class="rodape-links-texto">Nossas lojas</a></p>
+                        <p><a href="#" class="rodape-links-texto">Quero ser franqueado</a></p>
+                        <p><a href="#" class="rodape-links-texto">Anuncie aqui</a></p>
+                    </div>
+
+                    <div class="rodape-fale-conosco">
+                        <p class="rodape-fale-conosco-titulo">Fale conosco</p>
+                        <input type="text" placeholder="nome" class="rodape-fale-conosco-input">
+                        <textarea class="rodape-fale-conosco-text" placeholder="Escreva sua mensagem"></textarea>
+                        <input type="submit" value="Enviar mensagem" class="rodape-fale-conosco-botao">
+                    </div>  
+                </div>
+            </div>
+
+            <div class="assinatura">
+                <p class="assinatura-texto">Desenvolvido por Rodrigo Oliveira</p>
+                <p class="assinatura-texto">2022</p>
+            </div>
+        </footer>
     </main>
 </body>
 

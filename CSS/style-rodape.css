@@ -1,5 +1,4 @@
 footer{
-    width: 1440px;
     height: 470px;
 
     
@@ -12,23 +11,22 @@ footer{
 
 .rodape{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 
-    width:1440px;
     height: 368px;
+    width: 100%;
 
     margin: 0 auto;
- 
 
     font-family: 'Raleway', sans-serif;
+    background-color: #EAF2FD;
 }
 
 .rodape-container{
     display: flex;
     justify-content: space-between;
-    
-    
-    width: 1136px;
+
+    width:  1136px;
     height: 240px;
     margin: 0 auto;
 }
@@ -36,9 +34,8 @@ footer{
 .rodape-links{
     width: 176px;
     height: 234px;
-
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .logo-alura{
@@ -49,10 +46,14 @@ footer{
 .rodape-fale-conosco{
     width: 560px;
     height: 240px;
+
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .rodape-links-texto{
-    line-height: 18.79px;
+    line-height: 40px;
     color: #464646;
 }
 
@@ -85,4 +86,16 @@ footer{
 .rodape-fale-conosco-titulo{
     color: #464646;
     font-weight: 700;
+}
+
+.assinatura{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assinatura-texto{
+    margin: 0;
+    color: #464646;
 }

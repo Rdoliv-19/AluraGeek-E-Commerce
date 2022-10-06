@@ -45,12 +45,14 @@
     font-weight: 500;
     font-size: 14px;
     color: #464646;
+    margin-bottom: 10px;
 }
 
 .container-produtos-valor{
     font-weight: 700;
     font-size: 16px;
     color: #464646;
+    margin-bottom: 10px;
 }
 
 .container-produtos-link{
@@ -65,5 +67,22 @@
 }
 
 .produtos-Consoles, .produtos-starWars{
-    margin: 50px 0 80px 0;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .container-produtos-lista{
+        width: 704px;
+        height: 252px;
+    }
+
+    .container-produtos{
+        width: 164px;
+        height: 252px;
+    }
+
+    .container-produtos-imagem{
+        width: 164px;
+        height: 174px;
+    }
 }

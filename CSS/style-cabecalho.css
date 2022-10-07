@@ -1,8 +1,5 @@
 /*Estilos DESKTOP*/
 
-:root{
-    font-family: 'Raleway', sans-serif;
-}
 
 .cabecalho{
     margin: 20px auto;
@@ -50,10 +47,13 @@
 .login{
     width: 182px;
     height: 51px;
-
+    text-align:center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
     border: 1px solid #2A7AE4 ;
     color: #2A7AE4;
-    background-color: #ffffff;
 }
 
 /* PAGINA DE LOGIN */

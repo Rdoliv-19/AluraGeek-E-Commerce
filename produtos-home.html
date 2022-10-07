@@ -5,46 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Geek</title>
+    <title>Produtos Home</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style-cabecalho.css">
     <link rel="stylesheet" href="./CSS/style-produtos.css">
-    <link rel="stylesheet" href="./CSS/style-banner.css">
     <link rel="stylesheet" href="./CSS/style-rodape.css">
-    <link rel="stylesheet" href="./CSS/reset.css">
-
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="cabecalho">
-        <div class="cabecalho-container">
-            <div class="cabecalho-Logo">
-                <h1><img src="./IMG/Logo Alura.png"></h1>
-
-                <input type="text" placeholder="Oque deseja encontrar?" class="cabecalho-pesquisa">
-
-            </div>
-            <a href="login.html" class="login">Login</a>
-        </div>
-    </header>
     <main>
-        <div class="banner">
-            <div class="banner-imagem">
-                <div class="banner-container">
-                    <h2 class="banner-titulo">Dezembro promocional</h2>
-                    <h2 class="banner-subtitulo">Produtos selecionados com 33% de desconto</h2>
-                    <input type="button" value="Ver Consoles" class="banner-botao">
-                </div>
-            </div>
-        </div>
+        <header class="cabecalho">
+            <section class="cabecalho-container cabecalho-login">
+                <div class="cabecalho-Logo ">
+                    <h1><img src="./IMG/Logo Alura.png"></h1>
 
-        <div class="produtos">
-            <div class="produtos-starWars">
+                    <input type="text" placeholder="Oque deseja encontrar?" class="cabecalho-pesquisa">
+                </div>
+            </section>
+        </header>
+
+        <section class="produtos">
+            <section class="produtos-starWars">
                 <div class="produtos-topo">
                     <div class="produtos-topo-titulo">
-                        <h2 class="produtos-titulo">Star Wars</h2>
-                        <a href="#" class="produtos-subtitulo">Ver tudo<img src="./IMG/seta.png"></a>
+                        <h2 class="produtos-titulo-home">Todos os produtos</h2>
+                        <a href="#" class="produtos-botao">Adicionar Produtos</a>
                     </div>
                     <div class="container-produtos-lista">
                         <div class="container-produtos">
@@ -85,14 +71,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="produtos-Consoles">
+            <section class="produtos-Consoles">
                 <div class="produtos-topo">
-                    <div class="produtos-topo-titulo">
-                        <h2 class="produtos-titulo">Consoles</h2>
-                        <a href="#" class="produtos-subtitulo">Ver tudo<img src="./IMG/seta.png"></a>
-                    </div>
                     <div class="container-produtos-lista">
                         <div class="container-produtos">
                             <img src="./IMG/Console1.png" class="container-produtos-imagem">
@@ -132,14 +114,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="produtos-Diversos">
+            <section class="produtos-Diversos">
                 <div class="produtos-topo">
-                    <div class="produtos-topo-titulo">
-                        <h2 class="produtos-titulo">Diversos</h2>
-                        <a href="#" class="produtos-subtitulo">Ver tudo<img src="./IMG/seta.png"></a>
-                    </div>
                     <div class="container-produtos-lista">
                         <div class="container-produtos">
                             <img src="./IMG/Diversos1.png" class="container-produtos-imagem">
@@ -179,38 +157,37 @@
                         </div>
                     </div>
                 </div>
+            </section>
+    </main>
+    <footer>
+        <div class="rodape">
+            <div class="rodape-container">
+                <img src="./IMG/Logo Alura.png" class="logo-alura">
+
+                <div class="rodape-links">
+                    <p><a href="#" class="rodape-links-texto">Quem somos nós</a></p>
+                    <p><a href="#" class="rodape-links-texto">Política de privacidade</a></p>
+                    <p><a href="#" class="rodape-links-texto">Programa de fidelidade</a></p>
+                    <p><a href="#" class="rodape-links-texto">Nossas lojas</a></p>
+                    <p><a href="#" class="rodape-links-texto">Quero ser franqueado</a></p>
+                    <p><a href="#" class="rodape-links-texto">Anuncie aqui</a></p>
+                </div>
+
+                <div class="rodape-fale-conosco">
+                    <p class="rodape-fale-conosco-titulo">Fale conosco</p>
+                    <input type="text" placeholder="nome" class="rodape-fale-conosco-input">
+                    <textarea class="rodape-fale-conosco-text" placeholder="Escreva sua mensagem"></textarea>
+                    <input type="submit" value="Enviar mensagem" class="rodape-fale-conosco-botao">
+                </div>
             </div>
         </div>
 
-        <footer>
-            <div class="rodape">
-                <div class="rodape-container">
-                    <img src="./IMG/Logo Alura.png" class="logo-alura">
-
-                    <div class="rodape-links">
-                        <p><a href="#" class="rodape-links-texto">Quem somos nós</a></p>
-                        <p><a href="#" class="rodape-links-texto">Política de privacidade</a></p>
-                        <p><a href="#" class="rodape-links-texto">Programa de fidelidade</a></p>
-                        <p><a href="#" class="rodape-links-texto">Nossas lojas</a></p>
-                        <p><a href="#" class="rodape-links-texto">Quero ser franqueado</a></p>
-                        <p><a href="#" class="rodape-links-texto">Anuncie aqui</a></p>
-                    </div>
-
-                    <div class="rodape-fale-conosco">
-                        <p class="rodape-fale-conosco-titulo">Fale conosco</p>
-                        <input type="text" placeholder="nome" class="rodape-fale-conosco-input">
-                        <textarea class="rodape-fale-conosco-text" placeholder="Escreva sua mensagem"></textarea>
-                        <input type="submit" value="Enviar mensagem" class="rodape-fale-conosco-botao">
-                    </div>  
-                </div>
-            </div>
-
-            <div class="assinatura">
-                <p class="assinatura-texto">Desenvolvido por Rodrigo Oliveira</p>
-                <p class="assinatura-texto">2022</p>
-            </div>
-        </footer>
-    </main>
+        <div class="assinatura">
+            <p class="assinatura-texto">Desenvolvido por Rodrigo Oliveira</p>
+            <p class="assinatura-texto">2022</p>
+        </div>
+    </footer>
+    </section>
 </body>
 
 </html>

@@ -8,52 +8,34 @@
     max-height: 22rem;
     background-image: url(../IMG/banner-image.png);
     background-size: cover;
+
+    display: flex;
+    align-items: flex-end; 
 }
 
 .banner-container{
-    width: 1136px;
-    height: 300px;
-    margin: 0 auto;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+    padding: 3em;
 }
 
 .banner-titulo{
     color: white;
     font-size: 52px;
-    padding-bottom: 20px ;
+    padding-bottom: 1em;
 }
 
 .banner-subtitulo{
     color:white;
     font-size: 22px;
-    padding: 12px;
+    padding-bottom: 1em;
 }
 
 .banner-botao{
- padding: 16px;
+ padding: 1em;
  color: #ffffff ;
  background-color: #2A7AE4;
 
- width: 182px;
- height: 51px;
+ width: 25%; 
 }
 
 
 
-@media screen and (max-width: 786px){
-    .banner{
-        width: 768px;
-        height: 352px;
-        background-size: cover;
-    }
-
-    .banner-imagem{
-        width: 100%;
-        background-size: cover;
-        
-    }
-}

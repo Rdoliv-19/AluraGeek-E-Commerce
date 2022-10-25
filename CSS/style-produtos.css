@@ -27,18 +27,18 @@
 
 .produtos-titulo-home{
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2em;
     color: #464646;
 }
 
 .produtos-subtitulo{
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1em;
     color: #2A7AE4;
 }
 
 .produtos-botao{
-    padding: 16px;
+    padding: 1em;
     color: #ffffff ;
     background-color: #2A7AE4;
    
@@ -46,7 +46,8 @@
 }
 
 .container-produtos{
-   margin-right: 1em; 
+   margin-right: 1em;
+   width: 16%;
 }
 
 .container-produtos-imagem{
@@ -55,21 +56,21 @@
 
 .container-produtos-texto{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.8em;
     color: #464646;
     margin-bottom: 1em;
 }
 
 .container-produtos-valor{
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1em;
     color: #464646;
     margin-bottom: 0.5em;
 }
 
 .container-produtos-link{
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1em;
     color: #2A7AE4;
 }
 
@@ -128,8 +129,18 @@
     border: none;
 }
 
-@media screen and (max-width: 768px){
- 
+@media screen and (max-width: 370px){
+    .container-produtos-imagem{
+        width: 40vw;
+    }
+        
+    .container-produtos{
+       width: 40vw;
+    }
 
-   
+    .container-produtos-lista{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+  
 }

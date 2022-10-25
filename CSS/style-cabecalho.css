@@ -44,6 +44,10 @@
     color: #2A7AE4;
 }
 
+.cabecalho-lupa{
+    display: none;
+}
+
 /* PAGINA DE LOGIN */
 
 .sessao-iniciar{
@@ -101,6 +105,30 @@
 
     .cabecalho-Logo{
         justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .cabecalho-pesquisa{
+        display: none;
+    }
+
+    .cabecalho-lupa{
+        display: block;
+    }
+
+    .cabecalho{
+        justify-content: space-between;
+        padding: 1em 1em;
+    }
+
+    .cabecalho-logo{
+        width: 80%;
+    }
+
+    .login{
+        width: 30%;
+        padding: 0.5em;
     }
 }
 

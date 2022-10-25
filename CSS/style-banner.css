@@ -19,13 +19,14 @@
 
 .banner-titulo{
     color: white;
-    font-size: 52px;
+    font-size: 3.5em;
     padding-bottom: 1em;
+    font-weight: 700;
 }
 
 .banner-subtitulo{
     color:white;
-    font-size: 22px;
+    font-size: 1.5em;
     padding-bottom: 1em;
 }
 
@@ -37,5 +38,24 @@
  width: 25%; 
 }
 
+@media screen and (max-width: 370px){
+    
+    .banner-titulo{
+        font-size: 1.2em;
+       
+        padding-bottom: 0.5em;
+    }
+
+    .banner-subtitulo{
+        font-size: 0.8em;
+    }
+
+    .banner-botao{
+        width: 50%;
+        padding: 0.8em;
+    }
+
+    
+}
 
 

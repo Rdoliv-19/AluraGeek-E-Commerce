@@ -17,7 +17,6 @@
     justify-content: flex-start;
 }
 
-
 .cabecalho-pesquisa{
     margin-left: 1em;
     padding:0.5em 1em;
@@ -48,56 +47,8 @@
     display: none;
 }
 
-/* PAGINA DE LOGIN */
-
-.sessao-iniciar{
-    background-color: #E5E5E5
-}
-
-.cabecalho-login{
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.sessao-iniciar{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-    height: 400px;    
-}
-
-.sessao-iniciar-container{
-    width: 423px;
-    
 
 
-    margin: 30px 500px;
-  
-}
-
-.sessao-iniciar-titulo{
-    font-weight: 700;
-    font-size: 18px;
-    color: #464646;
-    margin-bottom: 1em;
-}
-
-.sessao-iniciar-input{
-    width: 423px;
-    height: 63px;
-    border-radius: 4px;
-    margin-bottom: 1.5em;
-}
-
-.sessao-iniciar-botao{
-    width: 423px;
-    height: 62px;
-    padding: 12px, 16px, 12px, 16px;
-    background-color:#2A7AE4;
-    color: #ffffff;
-    font-size: 18px;
-}
 
 /*TABLET*/
 

@@ -156,11 +156,12 @@
         width: 100%;
     }
 
-
-
+    .produtos-botao{
+     font-size: 0.8em;
+    }
 }
 
-@media screen and (max-width: 370px){
+@media screen and (max-width: 425px){
     .container-produtos-imagem{
         width: 40vw;
     }   
@@ -172,6 +173,20 @@
     .container-produtos-lista{
         width: 100%;
         flex-wrap: wrap;
+    }
+
+    .produtos-titulo-home{
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+
+    .produtos-botao{
+        width: 50%;
+    }
+
+    .produtos-topo-titulo{
+        flex-direction: column;
+        align-items: flex-start;
     }
   
 }

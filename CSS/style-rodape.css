@@ -46,6 +46,10 @@ footer{
     color: #464646;
 }
 
+.rodape-links-texto:hover{
+    color: #2A7AE4;
+}
+
 .rodape-fale-conosco-input{
     width: 80%;
     padding: 1.5em;
@@ -65,7 +69,7 @@ footer{
 .rodape-fale-conosco-botao{
     width: 165px;
     height: 51px;
-
+    border: none;
     padding: 16px;
 
     background-color: #2A7AE4;
@@ -90,6 +94,8 @@ footer{
     color: #464646;
 }
 
+
+
 @media screen and (max-width:768px){
  
     .rodape-container{
@@ -98,7 +104,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 370px){
+@media screen and (max-width: 425px){
     .rodape{
         flex-direction: column;
     }

@@ -38,7 +38,7 @@
  width: 25%; 
 }
 
-@media screen and (max-width: 370px){
+@media screen and (max-width: 425px){
     
     .banner-titulo{
         font-size: 1.2em;

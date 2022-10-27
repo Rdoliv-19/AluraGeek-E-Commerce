@@ -31,16 +31,21 @@
     background-position: 99% 50%;
 }
 
-.login{
+.botao-menu{
     width: 15%;
     text-align:center;
     display: flex;
     justify-content:center;
     align-items: center;
-    padding: 1em;
+    padding: 0.7em;
     
     border: 1px solid #2A7AE4 ;
     color: #2A7AE4;
+}
+
+.botao-menu:hover{
+    background-color: #2A7AE4;
+    color: white;
 }
 
 .cabecalho-lupa{
@@ -59,7 +64,7 @@
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 425px){
     .cabecalho-pesquisa{
         display: none;
     }

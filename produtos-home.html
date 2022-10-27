@@ -16,13 +16,14 @@
 <body>
     <main>
         <header class="cabecalho">
-            <section class="cabecalho-container cabecalho-login">
-                <div class="cabecalho-Logo ">
-                    <h1><img src="./IMG/Logo Alura.png"></h1>
+            <div class="cabecalho-Logo cabecalho-logo-login">
+                <h1><img src="./IMG/Logo Alura.png" class="cabecalho-logo"></h1>
+    
+                <input type="text" placeholder="Oque deseja encontrar?" class="cabecalho-pesquisa">
+    
+            </div>
 
-                    <input type="text" placeholder="Oque deseja encontrar?" class="cabecalho-pesquisa">
-                </div>
-            </section>
+            <img src="./IMG/lupa.png" class="cabecalho-lupa">
         </header>
 
         <section class="produtos">
@@ -30,7 +31,7 @@
                 <div class="produtos-topo">
                     <div class="produtos-topo-titulo">
                         <h2 class="produtos-titulo-home">Todos os produtos</h2>
-                        <a href="#" class="produtos-botao">Adicionar Produtos</a>
+                        <a href="produtos-adicionar.html" class="produtos-botao">Adicionar Produtos</a>
                     </div>
                     <div class="container-produtos-lista">
                         <div class="container-produtos">
@@ -172,14 +173,14 @@
                     <p><a href="#" class="rodape-links-texto">Quero ser franqueado</a></p>
                     <p><a href="#" class="rodape-links-texto">Anuncie aqui</a></p>
                 </div>
-
-                <div class="rodape-fale-conosco">
-                    <p class="rodape-fale-conosco-titulo">Fale conosco</p>
-                    <input type="text" placeholder="nome" class="rodape-fale-conosco-input">
-                    <textarea class="rodape-fale-conosco-text" placeholder="Escreva sua mensagem"></textarea>
-                    <input type="submit" value="Enviar mensagem" class="rodape-fale-conosco-botao">
-                </div>
             </div>
+
+            <div class="rodape-fale-conosco">
+                <p class="rodape-fale-conosco-titulo">Fale conosco</p>
+                <input type="text" placeholder="nome" class="rodape-fale-conosco-input">
+                <textarea class="rodape-fale-conosco-text" placeholder="Escreva sua mensagem"></textarea>
+                <input type="submit" value="Enviar mensagem" class="rodape-fale-conosco-botao">
+            </div>                
         </div>
 
         <div class="assinatura">
@@ -187,7 +188,6 @@
             <p class="assinatura-texto">2022</p>
         </div>
     </footer>
-    </section>
 </body>
 
 </html>
